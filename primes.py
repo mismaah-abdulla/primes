@@ -21,7 +21,6 @@ while True:
     if(isPrime):
         primesArray.append(i)
         print(i)
-        print(primesArray)
         print("Total primes: ",len(primesArray))
         primesString = ','.join(str(i) for i in primesArray)
         primes = open("primes.txt", "w")
